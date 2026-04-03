@@ -3,7 +3,7 @@ display_name: "Meta Ads Complete"
 description: "Complete Meta Ads Manager MCP server. Manage campaigns, audiences, creatives, and analytics from your AI assistant."
 tagline: "Stop switching tabs to manage Meta campaigns."
 version: 1
-runtime: node
+runtime: typescript
 env:
   - name: META_ACCESS_TOKEN
     description: Meta Graph API access token
