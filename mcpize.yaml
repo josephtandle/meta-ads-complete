@@ -1,15 +1,15 @@
 name: meta-ads-complete
 display_name: "Meta Ads Complete"
-description: "Complete Meta Ads Manager MCP server. Manage campaigns, audiences, creatives, and analytics — all from your AI assistant."
+description: "Complete Meta Ads Manager MCP server. Manage campaigns, audiences, creatives, and analytics from your AI assistant."
 tagline: "Stop switching tabs to manage Meta campaigns."
 version: 1
-runtime: typescript
+runtime: node
 env:
   - name: META_ACCESS_TOKEN
     description: Meta Graph API access token
     required: true
   - name: META_AD_ACCOUNT_ID
-    description: Meta Ad Account ID (format: act_XXXXXXXXX)
+    description: "Meta Ad Account ID (format: act_XXXXXXXXX)"
     required: true
 tags:
   - meta-ads
